@@ -1,0 +1,106 @@
+<html>
+<head>
+<link href="styleb.css"rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>contact us</title>
+<style>
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 40px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+</style>
+<body background="1234.jpg">
+<div class="civil4">	
+<h1><center>PROPERTY REGISTRATION SHEET</center></h1></div>
+<ul>
+		<li><a href="mainlogin.php">Home</a></li>
+		<li><a>About</a>
+		  <ul>
+					<li><a href="addowner.html">Register Owner</a></li>	
+					<li><a href="supervisor.php">Supervisers</a></li>
+					<li><a href="#">Assistent</a></li>
+					<li><a href="#">Client</a></li>
+			</ul>
+			</li>
+		<li><a href="addemployee.html">Emp.Register</a></li>
+</ul><br>
+<br>
+<form action="property.php" method="POST">
+    <div class="civil9">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Property No</label>
+        <input type="number" name="property_no" class="form-control" id="inputEmail4" placeholder="Property_no">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Address</label>
+        <input type="text"name="address" class="form-control" id="inputPassword4" placeholder="Address">
+      </div>
+    <div class="form-group col-md-6">
+        <label for="inputPassword4">District</label>
+        <input type="text"name="district" class="form-control" id="inputPassword4" placeholder="District">
+      </div>
+  
+    <div class="form-group col-md-6">
+        <label for="inputPassword4">Branch No</label>
+        <input type="text"name="branch_no" class="form-control" id="inputPassword4" placeholder="branch_no">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Owner Id</label>
+        <input type="number"name="owner_id" class="form-control" id="inputPassword4" placeholder="Owner_ID">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="inputState">Property Type</label>
+        <select id="inputState" name="Type" class="form-control">
+          <option selected>Flat</option>
+          <option>Annex</option>
+          <option>Bunglow</option>
+          <option>Commercial</option>
+        </select>
+      </div>
+
+    </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+      </form>
+<hr size="1"color="yellow">
+    
+   
+<div class="civil9"><center>
+ Sewana Property Holders Head Quaters<br>
+           Colombo 4.<br>
+Phone : 011-2454653<br>
+		071-4545872<br> 
+ Email : sewana_56@gmail.com</center></div>	 
+</body>
+</html>

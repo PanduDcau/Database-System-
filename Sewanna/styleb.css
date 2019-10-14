@@ -1,0 +1,168 @@
+.pin{
+	columns: 200%;
+	font-size:200%;
+	color:ffccff;
+	font-family:rockwell;
+}
+.pin2{
+	font-size:150%;
+	color:ffccff;
+	font-family:rockwell;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: url("flash vs Reverse.jpg");
+    opacity	:.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 6px;
+}
+ul li a{
+	text-decoration: none;
+	color:yellow;
+	display:block;
+}
+ul li a:hover{
+	Background-color:blue;	
+}	
+ul li ul li{
+	display: none;	
+}
+ul li:hover ul li {
+	display:block;
+}
+.yep{
+	font-size:400%;
+	color:ffffcc;
+	font-family:rockwell;
+}
+.civil{
+	font-size:120%;
+	color:ffffcc;
+	font-family:rockwell;
+	
+}
+.civil2{
+	font-size:150%;
+	color:ccffff;
+	font-family:rockwell;
+}
+.civil3{
+	font-size:120%;
+	color:99ffff;
+	font-family:rockwell;
+}
+.civil4{
+	font-size:170%;
+	color:99ffff;
+	font-family:rockwell;
+}
+.civil5{
+	font-size:120%;
+	color:99ffcc;
+	font-family:rockwell;
+}
+.civil6{
+	font-size:150%;
+	color:ffff00;
+	font-family:rockwell;
+}
+.civil7{
+	font-size:120%;
+	color:ccffcc;
+	font-family:rockwell;
+}
+.all{
+	font-size:250%;
+	color:pink;
+	font-family:Rockwell;
+}	
+.desc {
+    padding: 10px;
+    text-align: center;
+	font-family:150%;
+	color:33ffff;
+}
+.civil8{
+	font-size:120%;
+	color:ccccff;
+	font-family:rockwell;
+}
+.civil9{
+	font-size:120%;
+	color:ffffff;
+	font-family:rockwell;
+}
+fieldset{
+        font-size:90%;
+		color:green;
+		font-family:Rockwell;
+}
+.footnote{
+	font-size:90%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.signup-success{
+	font-size:90%;
+	color:ccffff;
+    font-family:Rockwell;	
+}
+.signup-promo-wrapper{
+	font-size:90%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.End{
+	font-size:70%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.topic{
+	font-size:200%;
+	color:9999ff;
+	font-family:Rockwell;
+}
+.topic2{
+	font-size:150%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+fieldset{
+        font-size:120%;
+		color:green;
+		font-family:Rockwell;
+}
+.footnote{
+	font-size:120%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.signup-success{
+	font-size:120%;
+	color:ccffff;
+    font-family:Rockwell;	
+}
+.signup-promo-wrapper{
+	font-size:120%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.End{
+	font-size:100%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.well{
+	font-size:120%;
+	color:ccccff;
+	font-family:Rockwell;
+}

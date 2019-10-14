@@ -1,0 +1,128 @@
+
+<html>
+<head>
+<link href="styleb.css"rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>contact us</title>
+<style>
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 40px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+</style>
+<body background="1234.jpg">
+<div class="civil4">	
+<h1><center>EMPLOYEE APPLICATION SHEET</center></h1></div>
+<ul>
+		<li><a href="mainlogin.php">Home</a></li>
+		<li><a>About</a>
+		  <ul>
+					<li><a href="manager.php">Managers</a></li>	
+					<li><a href="#">Supervisers</a></li>
+					<li><a href="#">Assistent</a></li>
+					<li><a href="#">Client</a></li>
+			</ul>
+			</li>
+		<li><a href="addemployee.html">Contact us </a></li>
+</ul><br>
+<br>
+<form action="register.php" method="POST">
+    <div class="civil9">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Employee Id</label>
+        <input type="number" name="emp_id" class="form-control" id="inputEmail4" placeholder="Employee_Id">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">NIC</label>
+        <input type="number"name="nic" class="form-control" id="inputPassword4" placeholder="NIC">
+      </div>
+    <div class="form-group col-md-6">
+        <label for="inputPassword4">Name</label>
+        <input type="text"name="name" class="form-control" id="inputPassword4" placeholder="Two Names at least">
+      </div>
+  
+    <div class="form-group col-md-6">
+        <label for="inputPassword4">Start Date</label>
+        <input type="text"name="start_date" class="form-control" id="inputPassword4" placeholder="Recruited date">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Date Of Birth</label>
+        <input type="text"name="dob" class="form-control" id="inputPassword4" placeholder="Birth Date">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="inputState">Gender</label>
+        <select id="inputState" name="gender" class="form-control">
+          <option selected>Male</option>
+          <option>Felmale</option>
+        </select>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Salary</label>
+        <input type="text"name="salary" class="form-control" id="inputPassword4" placeholder="In Ruppess">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Branch No</label>
+        <input type="text"name="branch_no" class="form-control" id="inputPassword4" placeholder="5 digit no">
+      </div>
+
+    </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+      </form>
+
+      <form action="delemployee.php" method="POST" class="form-inline">
+        <div class="form-group mb-2">
+          <label for="staticEmail2" class="sr-only">Employee_Id</label>
+          <input style="background-color:rgb(61, 219, 29);" type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Input Emp_Id To Delete">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="number" name="emp_id" class="form-control" id="inputPassword2" placeholder="Emp_id">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Confirm Deletion</button>
+      </form>
+
+<hr size="1"color="yellow">
+    
+   
+<div class="civil9"><center>
+ Sewana Property Holders Head Quaters<br>
+           Colombo 4.<br>
+Phone : 011-2454653<br>
+		071-4545872<br> 
+ Email : sewana_56@gmail.com</center></div>	 
+</body>
+</html>

@@ -1,0 +1,100 @@
+<html>
+<head>
+<link href="styleb.css"rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>contact us</title>
+<style>
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 40px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+</style>
+<body background="1234.jpg">
+<div class="civil4">	
+<h1><center>Client APPLICATION SHEET</center></h1></div>
+<ul>
+		<li><a href="mainlogin.php">Home</a></li>
+		<li><a>About</a>
+		  <ul>
+					<li><a href="#">Managers</a></li>	
+					<li><a href="#">Supervisers</a></li>
+					<li><a href="#">Assistent</a></li>
+					<li><a href="client.php">Client</a></li>
+			</ul>
+			</li>
+		<li><a href="clientlogin.html">Contact us </a></li>
+</ul><br>
+<br>
+<form action="regclientt.php" method="POST">
+    <div class="civil9">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Client No</label>
+        <input type="number" name="client_no" class="form-control" id="inputEmail4" placeholder="Client_Id">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">NIC</label>
+        <input type="number"name="nic" class="form-control" id="inputPassword4" placeholder="NIC">
+      </div>
+    <div class="form-group col-md-6">
+        <label for="inputPassword4">First Name</label>
+        <input type="text"name="first_name" class="form-control" id="inputPassword4" placeholder="First Name">
+    </div>
+  
+    <div class="form-group col-md-6">
+        <label for="inputPassword4">Last Name</label>
+        <input type="text"name="last_name" class="form-control" id="inputPassword4" placeholder="Last Name">
+    </div>
+
+     <div class="form-group col-md-6">
+        <label for="inputPassword4">Email</label>
+        <input type="text"name="email" class="form-control" id="inputPassword4" placeholder="Email">
+      </div>
+    </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </div>
+      </form>
+
+<hr size="1"color="yellow">
+
+<div class="civil9">
+If You Already Sign In<br>
+</div>
+<a href="clientdetail.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click Here</a>
+   
+<div class="civil9"><center>
+ Sewana Property Holders Head Quaters<br>
+           Colombo 4.<br>
+Phone : 011-2454653<br>
+		071-4545872<br> 
+ Email : sewana_56@gmail.com</center></div>	 
+</body>
+</html>

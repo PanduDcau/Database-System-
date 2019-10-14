@@ -1,0 +1,181 @@
+#kjjj {
+	     position: absolute;
+		 width: 1000px;
+		 height: 590px;
+		 Background: url (friends.jpg) no repeat;
+}
+.heading{
+	font-size:500%;
+	font-family:Rockwell;
+	color:Yellow;
+}
+.footer_menu{
+	     position: center;
+		 width: 1200px;
+		 height: 40px;
+		 Background: url("flash vs reverse.jpg");
+}
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.Egyptology_1{
+	Position:absolute;
+}
+#web_1{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+#web_1:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+.footer-main{
+	width: 100%;
+	height:200px;
+	margin:auto;
+	background:url("Images/hj.jpg");
+	padding:30px 10px;
+}
+.footer-inner{
+	width:10px;
+	height:2px;
+	margin:10px;
+}	
+.footer-left{
+	width: 100px;
+	height:auto;
+	margin:auto;
+	border:none;
+}	
+.footer-box{
+	width: 100px;
+	height:auto;
+	margin-bottom:10px;
+}
+.footer-box h6{
+	font-size:20px;
+	color:#fff;
+	text-align:left;
+	margin: 0px;
+	font-weight:bold;
+	padding-bottom:2px;
+	height:20px;
+}
+.foooter-box ul{
+	margin:2px;
+	padding:0px;
+    height:10px;	
+}
+.footer-box ul li a{
+	font-family:calibri;
+	font-size:8px;
+	color:blue;
+	text-align:left;
+}
+fieldset{
+        font-size:120%;
+		color:white;
+		font-family:Rockwell;
+}
+.footnote{
+	font-size:120%;
+	color:white;
+	font-family:Rockwell;
+}
+.signup-success{
+	font-size:120%;
+	color:white;
+    font-family:Rockwell;	
+}
+.signup-promo-wrapper{
+	font-size:120%;
+	color:white;
+	font-family:Rockwell;
+}
+.End{
+	font-size:120%;
+	color:white;
+	font-family:Rockwell;
+}	
+.tooltip{
+	font-size:120%;
+	color:grey;
+	font-family:Rockwell;
+}	
+.all{
+	font-size:250%;
+	color:pink;
+	font-family:Rockwell;
+}	
+.lam{
+	font-size:250%;
+	color:orange;
+	font-family:Rockwell;
+}
+.alf{
+	font-size:200%;
+	color:grey;
+	font-family:Rockwell;
+}
+.alf2{
+	font-size:150%;
+	color:pink;
+	font-family:Rockwell;
+}
+.topic{
+	font-size:200%;
+	color:9999ff;
+	font-family:Rockwell;
+}
+.topic2{
+	font-size:150%;
+	color:ccffff;
+	font-family:Rockwell;
+}
+.well{
+	font-size:120%;
+	color:white;
+	font-family:Rockwell;
+}
+.End{
+	font-size:100%;
+	color:ccffff;
+	font-family:Rockwell;
+}	
+	
+	
+
+
+
+
+
+		
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+		 
+	
+	
+	
